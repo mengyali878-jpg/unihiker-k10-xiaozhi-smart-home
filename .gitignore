@@ -1,0 +1,28 @@
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# ---- Large media excluded on purpose ----
+# GitHub rejects files > 100 MB. The demo video (~140 MB) is kept out of the repo
+# intentionally; see README > "Demo video".
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# ---- Mind+ / Arduino build artifacts ----
+*.hex
+*.bin
+*.elf
+build/
+.pio/
+
+# ---- Misc ----
+*.log
+__pycache__/
+*.pyc
+.venv/
+node_modules/
